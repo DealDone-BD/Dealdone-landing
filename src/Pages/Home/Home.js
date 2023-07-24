@@ -28,13 +28,13 @@ const Home = () => {
       <div className="w-full hidden md:block md:w-7/12 p-2 ">
         <img className="" src={mainBanner} alt="..." />
       </div>
-      <div className="m-auto pt-8 md:m-0 block md:hidden">
-        <a href="https://app.dealdone.com.bd/login">
-          <PrimaryButton className="py-2 px-4 mb-4 text-xs">
-            Start For Free
-          </PrimaryButton>
-        </a>
-      </div>
+      {/*<div className="m-auto pt-8 md:m-0 block md:hidden">*/}
+      {/*  <a href="https://app.dealdone.com.bd/login">*/}
+      {/*    <PrimaryButton className="py-2 px-4 mb-4 text-xs">*/}
+      {/*      Start For Free*/}
+      {/*    </PrimaryButton>*/}
+      {/*  </a>*/}
+      {/*</div>*/}
     </div>
   );
 };
