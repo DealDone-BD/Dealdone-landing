@@ -170,7 +170,7 @@ const Nav = ({ active }) => {
           </Link>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
-            <div className="justify-around mt-2">{signUpButton}</div>
+            {/*<div className="justify-around mt-2">{signUpButton}</div>*/}
             <div className="hidden md:flex justify-around mt-2">
               {themeButton}
             </div>
