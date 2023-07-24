@@ -39,13 +39,12 @@ const Footer = () => {
               </span>
               <span className="flex items-center gap-2">
                 <FiMail />
-                <p>tahsin@dealdone.com.bd</p>
+                <p>info@dealdone.com.bd</p>
               </span>
               <span className="flex items-start  gap-2">
                 <GoLocation className="mt-1" />
                 <p className="text-start">
                   DealDone Platform Limited
-                  <br /> Delta Dahlia Tower (Level 06),
                   <br /> 36 Kemal Ataturk Avenue, Banani, Dhaka - 1213
                 </p>
               </span>

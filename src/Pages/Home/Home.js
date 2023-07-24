@@ -14,13 +14,13 @@ const Home = () => {
         <p className="font-semibold text-sm md:text-lg text-center md:text-start">
           An Omni-Channel Aggregator SaaS
         </p>
-        <div className="mx-auto md:m-0 hidden md:block">
-          <a href="https://app.dealdone.com.bd/login">
-            <PrimaryButton className="md:mr-auto py-2 px-4 md:px-7 md:py-3  mb-4 md:mb-0  text-xs md:text-xl">
-              Start For Free
-            </PrimaryButton>
-          </a>
-        </div>
+        {/*<div className="mx-auto md:m-0 hidden md:block">*/}
+        {/*  <a href="https://app.dealdone.com.bd/login">*/}
+        {/*    <PrimaryButton className="md:mr-auto py-2 px-4 md:px-7 md:py-3  mb-4 md:mb-0  text-xs md:text-xl">*/}
+        {/*      Start For Free*/}
+        {/*    </PrimaryButton>*/}
+        {/*  </a>*/}
+        {/*</div>*/}
         <div className="w-full md:hidden p-2 ">
           <img className="" src={mainBanner} alt="..." />
         </div>
