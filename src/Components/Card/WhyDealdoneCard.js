@@ -14,7 +14,8 @@ const WhyDealdoneCard = ({ item }) => {
             className="absolute backface-hidden rounded-2xl 
            dark:border-darkBorder w-full h-full flex flex-col p-2 justify-center items-center "
           >
-            <img src={item.img} className="w-40 md:w-8/12 mx-auto" alt="..." />
+
+            <img style={{width:item?.size+"px"}} src={item.img} className={`w-40 mx-auto`} alt="..." />
             <Typography
               variant="h5"
               className="py-2 text-md md:text-xl flex justify-center items-center text-center font-extrabold"
