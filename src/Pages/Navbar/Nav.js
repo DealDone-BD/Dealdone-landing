@@ -148,7 +148,7 @@ const Nav = ({ active }) => {
     <>
       <Navbar
         className={`sticky inset-0 z-10 h-max max-w-full rounded-none  
-       border-none py-2 px-4 lg:px-8 lg:py-3  transition-shadow bg-inherit ${
+       border-none py-2 px-4 lg:px-10 lg:py-3  transition-shadow bg-inherit ${
          scrollPosition > 0
            ? "shadow-[0_25px_30px_-15px_rgba(0,0,0,0.2)]"
            : "shadow-none "

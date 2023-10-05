@@ -11,11 +11,13 @@ const LandingPage = () => {
   return (
     <>
       <Nav />
-      <Home />
-      <Brands />
-      <WhyDealdone />
-      <CreditScore />
-      <Pricing />
+      <div className="max-w-[1440px] mx-auto">
+        <Home />
+        <Brands />
+        <WhyDealdone />
+        <CreditScore />
+        <Pricing />
+      </div>
       <Footer />
     </>
   );

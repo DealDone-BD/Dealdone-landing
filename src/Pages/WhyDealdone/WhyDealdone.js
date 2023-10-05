@@ -16,19 +16,19 @@ const WhyDealdone = () => {
     },
     {
       img: img2,
-      title: "Real Time Order Sync",
+      title: "Central Order Sync",
       size:"280",
       text: "Instant sync to keep your stock up to date on always evolving inventory and avoiding marketplaces ban for overselling on unavailable stock.",
     },
     {
       img: img3,
-      title: "One Place To Manage Orders",
+      title: "All Orders In A Tab",
       size:"245",
       text: "View all the orders from different channels in one place & easily track & ship them, without missing any important deadline - giving you complete control over your business.",
     },
     {
       img: img4,
-      title: "Revenue-Based Easy Loan ",
+      title: "Credit Score For Easy Loan",
       size:"245",
       text: "Loans can be applied online in a click. We assess the data and create your credit profiles for our banking partners.",
     },
