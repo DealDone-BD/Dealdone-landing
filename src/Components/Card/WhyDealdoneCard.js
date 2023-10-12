@@ -24,7 +24,7 @@ const WhyDealdoneCard = ({ item }) => {
             </Typography>
           </div>
           <div className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-300 rounded-xl overflow-hidden">
-            <div className="text-center flex flex-col items-center justify-center h-full text-gray-800 p-2 md:p-5">
+            <div className="text-center flex flex-col items-center justify-center h-full p-2 md:p-5" style={{backgroundColor:"#3A8BCB",color:"white",fontWeight:"700"}}>
               <p className=" text-xs md:text-lg">{item.text}</p>
             </div>
           </div>
