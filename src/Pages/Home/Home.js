@@ -1,5 +1,5 @@
 import React from "react";
-import mainBanner from "../../assets/landingBanner.png";
+import mainBanner from "../../assets/landingBanner-2.png";
 import PrimaryButton from "../../Components/Button/PrimaryButton";
 import { Typography } from "@material-tailwind/react";
 
