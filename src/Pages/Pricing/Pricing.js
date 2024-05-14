@@ -7,23 +7,19 @@ const Pricing = () => {
   const features = [
     {
       icon: <IoCheckmarkDoneCircle />,
-      text: "Optimizing Inventory",
+      text: "Multi-Channel Product Listing",
     },
     {
       icon: <IoCheckmarkDoneCircle />,
-      text: "Hassle-Free Order Management",
+      text: "Central Order Sync",
     },
     {
       icon: <IoCheckmarkDoneCircle />,
-      text: "Streamlining Operations",
+      text: "All Orders In A Tab",
     },
     {
       icon: <IoCheckmarkDoneCircle />,
-      text: "Reducing Operational Cost",
-    },
-    {
-      icon: <IoCheckmarkDoneCircle />,
-      text: "Increasing Access To Formal Credit",
+      text: "Credit Score For Easy Loan",
     },
   ];
   return (
@@ -46,7 +42,7 @@ const Pricing = () => {
 
         <div
           className=" bg-gray-100 dark:bg-darkComp mx-6 md:mx-0   md:w-4/12 border border-gray-300
-         dark:border-darkBorder hover:border-green-700 rounded-lg p-5"
+         dark:border-darkBorder hover:border-green-700 rounded-lg p-10"
         >
           <Typography variant="h5" className="pb-5">
             Features

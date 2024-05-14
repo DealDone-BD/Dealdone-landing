@@ -63,7 +63,7 @@ const Footer = () => {
         color="blue-gray"
         className="text-center font-normal text-white "
       >
-        &copy; 2023 DealDone Platform Limited
+        &copy; 2024 DealDone Platform Limited
       </Typography>
     </div>
   );

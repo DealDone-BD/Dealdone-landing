@@ -4,6 +4,7 @@ import img1 from "../../assets/1.Multi-Marketplace Product Listing1.gif";
 import img2 from "../../assets/realTime.gif";
 import img3 from "../../assets/all-orders.png";
 import img4 from "../../assets/revenue.png";
+import banner from "../../assets/Banner-011.jpeg";
 import WhyDealdoneCard from "../../Components/Card/WhyDealdoneCard";
 
 const WhyDealdone = () => {
@@ -43,6 +44,9 @@ const WhyDealdone = () => {
       id="why_dealdone"
       className="px-3 md:px-10 min-h-fit my-14 md:my-0 p-5 "
     >
+      <div className="p-4 mb-20 ">
+        <img className="mx-auto" src={banner} alt="banner-001"></img>
+      </div>
       <p style={{ textAlign: "center", fontSize: "20px",fontWeight:"700"}}>Why Dealdone ? </p>
       <SectionHeading title="One Place. Multiple Platforms. All Gain. No Pain" />
       <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-7 p-2 mt-8">
