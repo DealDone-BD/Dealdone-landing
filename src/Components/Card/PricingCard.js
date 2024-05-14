@@ -10,13 +10,13 @@ const PricingCard = () => {
       icon: <IoHomeOutline />,
       title: "Cottage & Micro",
       text: "(Free For First 12Months) ",
-      price: "99",
+      price: "999",
     },
     {
       icon: <HiOutlineBuildingOffice2 />,
       title: "SME",
       text: "(Free For First 6Months) ",
-      price: "599",
+      price: "2999",
     },
     {
       icon: <BsBuildings />,

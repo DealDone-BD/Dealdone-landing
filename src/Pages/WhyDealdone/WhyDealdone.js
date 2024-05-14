@@ -44,7 +44,7 @@ const WhyDealdone = () => {
       id="why_dealdone"
       className="px-3 md:px-10 min-h-fit my-14 md:my-0 p-5 "
     >
-      <div className="p-4 mb-20 ">
+      <div className="m-20  mb-20 bg-white dark:bg-darkComp rounded-lg">
         <img className="mx-auto" src={banner} alt="banner-001"></img>
       </div>
       <p style={{ textAlign: "center", fontSize: "20px",fontWeight:"700"}}>Why Dealdone ? </p>
