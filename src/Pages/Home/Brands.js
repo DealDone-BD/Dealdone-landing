@@ -8,6 +8,7 @@ import brnad4 from "../../assets/Company logo/04.png";
 import brnad5 from "../../assets/Company logo/05.png";
 import brnad6 from "../../assets/Company logo/06.png";
 import brnad7 from "../../assets/Company logo/07.png";
+import brnad8 from "../../assets/Company logo/Pickaboo.png";
 
 const Brands = () => {
   const carouselRef = React.createRef(null);
@@ -24,7 +25,7 @@ const Brands = () => {
       brand: brnad3,
     },
     {
-      brand: brnad4,
+      brand: brnad8,
     },
     {
       brand: brnad5,
@@ -34,7 +35,9 @@ const Brands = () => {
     },
     {
       brand: brnad7,
-    },
+    },{
+      brand: brnad4,
+    }
   ];
   const breakPoints = [
     {
@@ -71,15 +74,15 @@ const Brands = () => {
         pagination={false}
         // renderPagination={myPagination}
         enableAutoPlay={true}
-        autoPlaySpeed={1500}
+        autoPlaySpeed={2000}
         onNextEnd={({ index }) => {
           // console.log("index", index, "length", items.length);
           // if (index === 9) {
-          if (index === 4) {
+          if (index === 1) {
             clearTimeout(resetTimeout);
             resetTimeout = setTimeout(() => {
               carouselRef?.current?.goTo(0);
-            }, 1500); // same time
+            }, 2000); // same time
           }
         }}
       >
