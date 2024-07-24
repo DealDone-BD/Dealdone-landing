@@ -6,6 +6,7 @@ import Brands from "./Home/Brands";
 import Pricing from "./Pricing/Pricing";
 import Footer from "./Footer/Footer";
 import CreditScore from "./CreditScore/CreditScore";
+import TrustedBy from "./Home/TrustedBy";
 
 const LandingPage = () => {
   return (
@@ -17,6 +18,7 @@ const LandingPage = () => {
         <WhyDealdone />
         <CreditScore />
         <Pricing />
+        <TrustedBy />
       </div>
       <Footer />
     </>

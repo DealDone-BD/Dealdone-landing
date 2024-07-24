@@ -9,6 +9,9 @@ import brnad5 from "../../assets/Company logo/05.png";
 import brnad6 from "../../assets/Company logo/06.png";
 import brnad7 from "../../assets/Company logo/07.png";
 import brnad8 from "../../assets/Company logo/Pickaboo.png";
+import brnad9 from "../../assets/Company logo/robiShop.webp";
+
+
 
 const Brands = () => {
   const carouselRef = React.createRef(null);
@@ -26,6 +29,9 @@ const Brands = () => {
     },
     {
       brand: brnad8,
+    },
+    {
+      brand: brnad9,
     },
     {
       brand: brnad5,
